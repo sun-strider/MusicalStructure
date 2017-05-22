@@ -1,0 +1,16 @@
+<resources>
+    <!-- Title for the application.  -->
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Category Names -->
+    <string name="category_playlists">Playlists</string>
+
+    <string name="category_artists">Artists</string>
+
+    <string name="category_recently_played">Recently Played</string>
+
+    <string name="category_albums">Albums</string>
+
+    <string name="category_songs">Songs</string>
+
+</resources>
