@@ -5,12 +5,23 @@
     <!-- Category Names -->
     <string name="category_playlists">Playlists</string>
 
-    <string name="category_artists">Artists</string>
-
     <string name="category_recently_played">Recently Played</string>
+
+    <string name="category_artists">Artists</string>
 
     <string name="category_albums">Albums</string>
 
     <string name="category_songs">Songs</string>
+
+
+    <string name="cat_playlists_description">This is the text for the Playlists activity</string>
+
+    <string name="cat_recently_played_description">This is the text for the Recently Played activity</string>
+
+    <string name="cat_artists_description">This is the text for the Artists activity</string>
+
+    <string name="cat_albums_description">This is the text for the Albums activity</string>
+
+    <string name="cat_songs_description">This is the text for the Songs activity</string>
 
 </resources>
