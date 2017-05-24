@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Find the View that shows the playlists category
-        TextView playlists = (TextView) findViewById(R.id.playlists);
+        TextView playlist = (TextView) findViewById(R.id.playlists);
 
         // Set a click listener on that View
-        playlists.setOnClickListener(new View.OnClickListener() {
+        playlist.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when that View is clicked on.
             @Override
             public void onClick(View view) {

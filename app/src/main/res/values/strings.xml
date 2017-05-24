@@ -14,14 +14,42 @@
     <string name="category_songs">Songs</string>
 
 
-    <string name="cat_playlists_description">This is the text for the Playlists activity</string>
+    <string name="cat_playlists_description">This activity shows a list of playlists \n\n
+    The issues I describe here applies to all other activities or respective sub-activities, so I will not write these issues in the other activities again;
+        only possible specific ones will be mentioned. \n
+    Also, left the other activities basically blank, as it would only be a copy-paste work without added value. \n\n
+        Issues: \n
+        - The activities are static. No new ones are created dynamically, which is needed for an app like this,
+        as there can be any given number of playlists, artists, albums or (recently played) songs. \n
+        to solve this first issue, I assume fragments would be a solution. \n\n
+        - Also it is needed, that the tags of the songs are automatically read and corresponding views be dynamically generated. \n
+        The solution to this may be a tag reading library in combination with a logic that creates views based on those readings. \n\n
+        - For better navigation a menu would be good. A simple solution for jumping back to the main activity from any other activity would be to add a View with a listener, which jumps back to MainActivity.
+        I added this to Playlist1 as an example. From the first level of activities back it is not really needed, as the back button does this. \n
+        To solve this issue, a layout with menus like in the google play app or other apps which follow this basic design (the 3 lines button) would be good. \n\n
+        TL/DR: To be continued in ArtistActivity :)
+    </string>
 
-    <string name="cat_recently_played_description">This is the text for the Recently Played activity</string>
+    <string name="cat_recently_played_description">This activity shows a list of recently played songs</string>
 
-    <string name="cat_artists_description">This is the text for the Artists activity</string>
+    <string name="cat_artists_description">This activity shows a list of artists \n
+     - To make things more visually attractive, I would add ImageViews for album arts on the songs and albums, and some artist art when on the artist level. \n
+        For playlists a collection of album arts (similar to the google play app) \n\n
+        An issue with this is, when for example displaying 2 rows of ImageViews, this is fixed. This causes the size of the IamgeViews to be too big when flipping to horizontal.
+        Better would be, that the amount of ImageViews per row changes dynamically.
+        I found GridView and GridLayout when searching. I assume one of those can do this. I have not understood the difference of them yet though.
+    </string>
 
-    <string name="cat_albums_description">This is the text for the Albums activity</string>
+    <string name="cat_albums_description">This activity shows a list of albums</string>
 
-    <string name="cat_songs_description">This is the text for the Songs activity</string>
+    <string name="cat_songs_description">This activity shows a list of songs</string>
+
+    <string name="cat_playlist1">My Playlist</string>
+    <string name="cat_playlist_1_description">This activity shows a list of songs which are in playlist 1</string>
+    <string name="song_1_name">Kids</string>
+    <string name="song_2_name">Send My Love</string>
+    <string name="song_3_name">Roar</string>
+    <string name="song_4_name">Make It Bun Dem</string>
+    <string name="song_5_name">Get Your Fight On</string>
 
 </resources>

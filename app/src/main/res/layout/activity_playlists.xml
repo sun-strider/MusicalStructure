@@ -5,10 +5,26 @@
     android:layout_height="match_parent"
     tools:context="com.example.me74.musicalstructure.PlaylistsActivity">
 
-    <TextView
-        android:id="@+id/playlists"
-        style="@style/CategoryStyle"
-        android:background="@color/category_playlists"
-        android:text="@string/cat_playlists_description" />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cat_playlists"
+            style="@style/CategoryStyle"
+            android:background="@color/category_playlists"
+            android:text="@string/cat_playlists_description" />
+
+
+        <TextView
+            android:id="@+id/playlist1"
+            style="@style/CategoryStyle"
+            android:background="@color/category_playlists"
+            android:text="@string/cat_playlist1" />
+
+    </LinearLayout>
 
 </ScrollView>
