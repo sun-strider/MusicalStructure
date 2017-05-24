@@ -23,9 +23,9 @@
     <color name="category_artists">#FF6F00</color>
 
     <!-- Background color for the colors category -->
-    <color name="category_albums">#FFA000</color>
+    <color name="category_albums">#FF8F00</color>
 
     <!-- Background color for the numbers category -->
-    <color name="category_songs">#FFC107</color>
+    <color name="category_songs">#FFA000</color>
 
 </resources>

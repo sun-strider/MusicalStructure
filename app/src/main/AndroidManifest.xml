@@ -31,7 +31,10 @@
         <activity
             android:name=".SongsActivity"
             android:label="@string/category_songs" />
-        <activity android:name=".Playlist1Activity"></activity>
+        <activity
+            android:name=".Playlist1Activity"
+            android:label="@string/playlist1_name" />
+
     </application>
 
 </manifest>

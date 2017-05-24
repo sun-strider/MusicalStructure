@@ -23,7 +23,7 @@
             android:id="@+id/playlist1"
             style="@style/CategoryStyle"
             android:background="@color/category_playlists"
-            android:text="@string/cat_playlist1" />
+            android:text="@string/playlist1_name" />
 
     </LinearLayout>
 
