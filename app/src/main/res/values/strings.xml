@@ -54,12 +54,14 @@
 
     <string name="cat_songs_description">This activity shows a list of songs \n\n
 
-    The Classes I would use to implement the funcionality I described in the &quot;Playlists&quot; and &quot;Recently Played&quot; activities are the following.
+    The Classes I would use to implement the funcionality I described in the \"Playlists\" and \"Recently Played\" activities are the following.
         These apply to the other activities as well: \n\n
 
-        - Class &quot;Fragment&quot;: I am not sure if I understand it correctly, but my idea is to use this to dynamically add the songs (or playlists, artists, albums in the respective views) \n
-        - Class &quot;MediaMetadataRetriever&quot;: This is to read the metadata of the MP3 files. \n
-        - View &quot;GridView&quot; or &quot;GridLayout&quot;: This is to display the respective items in a grid, which should dynamically adjust to screen size (e.g. show more or less elements in each row, depending on width.
+        - Class \"Fragment\": I am not sure if I understand it correctly, but my idea is to use this to dynamically add the songs (or playlists, artists, albums in the respective views) \n
+        - Class \"MediaMetadataRetriever\": This is to read the metadata of the MP3 files. \n
+        - Class \"MediaPlayer\": This is to play the songs. \n
+        - Class \"Audiomanager\": This is to manage the audio resources of the device. \n
+        - View \"GridView\" or \"GridLayout\": This is to display the respective items in a grid, which should dynamically adjust to screen size (e.g. show more or less elements in each row, depending on width.
 
     </string>
 
